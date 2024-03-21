@@ -1,0 +1,94 @@
+
+
+.hero-heading h1{
+    font-weight:700;
+    font-size: 45px;
+}
+.hero-heading h2{
+    font-weight:600;
+    font-size: 2.375rem;
+}
+.hero-heading span{
+    font-weight:600;
+    font-size: 1.5rem;
+}
+.btn{
+    height: 45px;
+    padding: 0 25px;
+    border-radius: 16px;
+    border: 1px solid gray;
+
+}
+.primary{
+    background-color: #FBD84E;
+}
+.hero-btn{
+    display: flex;
+    gap: 15px;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper {
+    background: linear-gradient(45deg, #c8e8f5, #f5ebd0);
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .hero-heading {
+    width: 50%;
+  }
+  
+  .hero-image {
+    max-width: 60%;
+  }
+   
+
+  @media (max-width: 768px) {
+    .hero-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-top: 4rem;
+      padding: 0 1rem;
+      padding-top: 4rem;
+    }
+  
+    .hero-heading {
+        width: 100%; /* Full width for smaller screens */
+        margin-bottom: 20px; /* Add margin for better spacing */
+    }
+  
+    .hero-image {
+        max-width: 100%; /* Full width for smaller screens */
+        margin-top: 20px; /* Add margin for better spacing */
+    }
+    .hero-heading h1{
+     
+      font-size: 36px;
+  }
+  }
+  

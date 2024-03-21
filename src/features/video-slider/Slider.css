@@ -1,0 +1,30 @@
+/* Slider.css */
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-item {
+  transition: transform 0.5s ease;
+  margin: 0 10px;
+}
+
+.slider-item img {
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.scale-small {
+  transform: scale(1);
+}
+
+.scale-medium {
+  transform: scale(1.2);
+}
+
+.scale-large {
+  transform: scale(1.5);
+}
